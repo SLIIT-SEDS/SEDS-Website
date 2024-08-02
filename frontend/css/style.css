@@ -17,11 +17,31 @@
 /* footer css */
 .footer{
     width: 100%;
-    height: 400px;
+    height: 270px;
 }
-
-
-
+.seds-footer-line{
+    width: 100%;
+    height: 3px;
+}
+.seds-footer-logo{
+    width: 120px;
+    height: 150px;
+    background-size: cover;
+    background-image: url("../resources/images/footer/logo.png");
+}
+.seds-footer-middle-sec{
+    gap: 100px;
+    color: white;
+    
+}
+.seds-footer-hori-line{
+    color: white;
+    padding: 2px;
+}
+.seds-footer-bootom-box{
+    justify-content: center;
+    gap: 60px;
+}
 
 
 @media screen and (max-width: 1070px) {
@@ -42,8 +62,14 @@
 }
 
 @media screen and (max-width: 768px) {
-
+    .seds-footer-logo{
+        width: 80px;
+        height: 100px;
+    }
     
+     .seds-footer-middle-sec{
+        gap: 50px;
+    }
 
 }
 
@@ -52,5 +78,26 @@
     .seds-header-toogleBtn{
         margin-left: 50px;
        }
+       .seds-footer-middle-sec{
+        gap: 20px;
+    }
+    .seds-footer-bootom-box{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        
+    }
+
+}
+
+@media screen and (max-width: 395px) {
+    
+    .seds-footer-logo{
+        width: 65px;
+        height: 80px;
+    }
+    .seds-footer-middle-sec{
+        gap: 15px;
+    }
 
 }

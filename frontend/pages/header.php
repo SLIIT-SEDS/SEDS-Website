@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEDS Header</title>
+    <title>SEDS | SLIIT</title>
 
     <!-- tab icon -->
-    <link rel="icon" type="image/png" href="../resources/images/header/logo_icon.png">
+    <link rel="icon" type="image/png" href="../resources/images/header/web_icon.png">
 
     <!-- link css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
