@@ -1,103 +1,170 @@
 /* header css */
-.seds-header-logo{
-    width: 170px;
-    height: 80px;
-    background-size: cover;
-    margin-right: 30px;
-    background-image: url("../resources/images/header/logo_name.png");
+.seds-header-logo {
+  width: 170px;
+  height: 80px;
+  background-size: cover;
+  margin-right: 30px;
+  background-image: url("../resources/images/header/logo_name.png");
 }
-.seds-header-button{
-    width: 145px;
-    height: 28px;
-    margin-left: 40px;
-    border-color: white;
-    background-color: rgb(39, 39, 39);
+.seds-header-button {
+  width: 145px;
+  height: 28px;
+  margin-left: 40px;
+  border-color: white;
+  background-color: rgb(39, 39, 39);
 }
 
 /* footer css */
-.footer{
-    width: 100%;
-    height: 270px;
+.footer {
+  width: 100%;
+  height: 270px;
 }
-.seds-footer-line{
-    width: 100%;
-    height: 3px;
+.seds-footer-line {
+  width: 100%;
+  height: 3px;
 }
-.seds-footer-logo{
-    width: 120px;
-    height: 150px;
+.seds-footer-logo {
+  width: 120px;
+  height: 150px;
+  background-size: cover;
+  background-image: url("../resources/images/footer/logo.png");
+}
+.seds-footer-middle-sec {
+  gap: 100px;
+  color: white;
+}
+.seds-footer-hori-line {
+  color: white;
+  padding: 2px;
+}
+.seds-footer-bootom-box {
+  justify-content: center;
+  gap: 60px;
+}
+/* home page css */
+/* home section 1 */
+.seds-home-s1 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("../resources/images/home/background.png");
+  background-size: cover;
+}
+
+.seds-home-s1-bg {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.seds-home-s1-ball {
+  width: 500px;
+  height: 500px;
+  border-radius: 350px;
+  background-image: url("../resources/images/home/ball.png");
+  background-size: cover;
+  box-shadow: inset 0px 0px 5px #fdfff29e, inset 30px 0px 50px #000;
+  animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -500px 0;
+  }
+}
+
+.seds-home-s1-astronet {
+    margin-top: 280px;
+    width: 300px;
+    height: 300px;
+    background-image: url("../resources/images/home/astronet1.png");
     background-size: cover;
-    background-image: url("../resources/images/footer/logo.png");
-}
-.seds-footer-middle-sec{
-    gap: 100px;
-    color: white;
-    
-}
-.seds-footer-hori-line{
-    color: white;
-    padding: 2px;
-}
-.seds-footer-bootom-box{
-    justify-content: center;
-    gap: 60px;
+    animation: moveUpDown 4s ease-in-out infinite;
 }
 
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px); /* Adjust the value to control the movement distance */
+    }
+}
 
+.seds-home-s1-header-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; /* Ensure it's above the background */
+  text-align: center;
+  width: 100%;
+  /* max-width: 1200px;  */
+}
+
+.seds-home-s1-header {
+  display: flex;
+  justify-content: center; /* Distribute space evenly between items */
+  /* gap: 20px; */
+}
+.seds-home-s1-para1{
+ letter-spacing: 2px;
+ margin-top: 20px;
+}
+.seds-home-s1-para2{
+ letter-spacing: 3px;
+}
+/* media queries */
 @media screen and (max-width: 1070px) {
-
-    
 }
 
 @media screen and (max-width: 991px) {
-   .seds-header-toogleBtn{
+  .seds-header-toogleBtn {
     margin-left: 150px;
-   }
-   .seds-header-button{
+  }
+  .seds-header-button {
     margin-top: 15px;
     margin-left: 0px;
-}
-    
-    
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .seds-footer-logo{
-        width: 80px;
-        height: 100px;
-    }
-    
-     .seds-footer-middle-sec{
-        gap: 50px;
-    }
+  .seds-footer-logo {
+    width: 80px;
+    height: 100px;
+  }
 
+  .seds-footer-middle-sec {
+    gap: 50px;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    
-    .seds-header-toogleBtn{
-        margin-left: 50px;
-       }
-       .seds-footer-middle-sec{
-        gap: 20px;
-    }
-    .seds-footer-bootom-box{
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        
-    }
-
+  .seds-header-toogleBtn {
+    margin-left: 50px;
+  }
+  .seds-footer-middle-sec {
+    gap: 20px;
+  }
+  .seds-footer-bootom-box {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 }
 
 @media screen and (max-width: 395px) {
-    
-    .seds-footer-logo{
-        width: 65px;
-        height: 80px;
-    }
-    .seds-footer-middle-sec{
-        gap: 15px;
-    }
-
+  .seds-footer-logo {
+    width: 65px;
+    height: 80px;
+  }
+  .seds-footer-middle-sec {
+    gap: 15px;
+  }
 }
