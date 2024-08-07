@@ -31,9 +31,10 @@
     </head>
 
     <body>
+        <?php include '../frontend/pages/header.php'; ?>
         <!-- section 1(seds-home-s1) -->
         <section class="seds-home-s1">
-            <div class="container d-flex justify-content-center align-items-center h-100">
+            <div class="container d-flex justify-content-center h-100">
                 <div class="seds-home-s1-bg d-flex">
                     <div class="seds-home-s1-ball"></div>
                     <div class="seds-home-s1-astronet"></div>
@@ -45,8 +46,8 @@
                         <div class="seds-home-s1-header-p3"></div>
                     </div>
                     <div class="seds-home-s1-para1 passion-one-bold alg-text-h2">Students for the Exploration and Development of Space</div>
-                    <div class="seds-home-s1-para2 passion-one-regular ">Sri Lanka Institute of Information Technology</div
-            </div>
+                    <div class="seds-home-s1-para2 passion-one-regular ">Sri Lanka Institute of Information Technology</div>
+                </div>
         </section>
 
 
