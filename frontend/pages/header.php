@@ -19,24 +19,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap" rel="stylesheet">
 
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/79961d807c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <section class="header">
-        <div class="container d-flex justify-content-center pt-4 ">
-            <nav class="navbar  navbar-expand-lg navbar-light d-flex seds-header-box gap-5">
+        <div class="container d-flex justify-content-center pt-4">
+            <nav class="navbar navbar-expand-lg navbar-light d-flex seds-header-box">
                 <a class="navbar-brand seds-header-logo" href="#"></a>
                 <button class="navbar-toggler seds-header-toogleBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"><i class="fa-solid fa-bars-staggered" style="color: #ffffff;"></i></span>
                 </button>
 
-                <div class="collapse  navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex gap-2">
                         <li class="nav-item">
                             <a class="nav-link text-light alg-text-h3 alg-bold lexend-exa" href="#">DIVISIONS</a>
@@ -50,7 +48,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-light alg-text-h3 alg-bold lexend-exa" href="#">ABOUT US</a>
                         </li>
-                        <li class="nav-item d-flex align-items-center ">
+                        <li class="nav-item d-flex align-items-center">
                             <button class="seds-header-button lexend-exa d-flex justify-content-center alg-bold align-items-center text-light alg-rounded-small alg-text-p" type="submit">JOIN WITH US</button>
                         </li>
                     </ul>
