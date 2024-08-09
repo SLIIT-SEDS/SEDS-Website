@@ -148,12 +148,126 @@
     letter-spacing: 3px;
     margin-bottom: 80px;
 }
-.teste{
-    background-color: red;
-    height: 200px;
+/* home page section 2 */
+.seds-home-s2{
+    width: 100%;
+    height: 580px;
+    background-image: url("../resources/images/home/background.png");
+    background-size: cover;
 }
+.seds-home-s2-container{
+    display: flex;
+    height: 100%;
+}
+.seds-home-s2-left{
+    width: 700px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+.seds-home-s2-left-para{
+    width: 500px;
+}
+.seds-home-s2-right{
+    width: 500px;
+    margin-top: 50px;
+}
+.seds-home-s2-right-rocket{
+    /* width: 300px; */
+}
+.seds-home-s2-left-button{
+    width: 130px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+}
+/* rocket seen */
+.seds-home-s2-right-rocket{
+    width: 300px;
+    height: 300px;
+    background-image: url("../resources/images/home/rocket2.png");
+    background-size: cover;
+    transform: translateY(220px);
+    animation: rocket 7s ease-in-out infinite;
+
+}
+@keyframes rocket {
+    0%, 100% {
+        transform: translateY(220px);
+    }
+    50% {
+        transform: translateY(-50px); /* Adjust the value to control the movement distance */
+    }
+}
+.seds-home-s2-right-clouds{
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+}
+.home-cloud1{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-image: url("../resources/images/home/cloud1.png");   
+    background-size: cover;
+    animation: cloud1 4s ease-in-out infinite;
+}
+@keyframes cloud1 {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-15px); /* Adjust the value to control the movement distance */
+    }
+}
+.home-cloud2{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background-image: url("../resources/images/home/cloud1.png");   
+    background-size: cover;
+    margin-left: 80px;
+    animation: cloud2 4s ease-in-out infinite;
+}
+@keyframes cloud2 {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(15px); /* Adjust the value to control the movement distance */
+    }
+}
+.home-cloud3{
+    position: absolute;
+    width: 280px;
+    height: 100px;
+    background-image: url("../resources/images/home/cloud2.png");   
+    background-size: cover;
+    margin-top: 100px;
+    margin-left: 80px;
+    animation: cloud3 4s ease-in-out infinite;
+    
+}
+@keyframes cloud3 {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateX(-10px); /* Adjust the value to control the movement distance */
+    }
+}
+
 /* media queries */
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1160px) {
+    .seds-home-s2-left{
+        width: 450px;
+       
+    }
+    .seds-home-s2-left-para{
+        width: 450px;
+    }
+   
 }
 
 @media screen and (max-width: 1000px) {
@@ -212,7 +326,7 @@
         height: 200px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .seds-footer-logo {
         width: 80px;
         height: 100px;
@@ -225,6 +339,13 @@
         width: 350px;
         height: 350px;
        margin-left: 20px;
+    }
+    /* home section 2 */
+    .seds-home-s2-container{
+        flex-direction: column;
+    }
+    .seds-home-s2-right{
+        margin-top: 0px;
     }
    
 }
