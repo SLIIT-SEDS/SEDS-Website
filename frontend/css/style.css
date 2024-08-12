@@ -1,445 +1,592 @@
 /* header css */
 .header {
-    background-image: url('../resources/images/home/background.png');
-    background-size: cover;
+  background-image: url("../resources/images/home/background.png");
+  background-size: cover;
 }
-.seds-header-box{
-    gap: 50px;
+.seds-header-box {
+  gap: 50px;
 }
 .seds-header-logo {
-    width: 170px;
-    height: 80px;
-    background-size: cover;
-    margin-right: 30px;
-    background-image: url("../resources/images/header/logo_name.png");
+  width: 170px;
+  height: 80px;
+  background-size: cover;
+  margin-right: 30px;
+  background-image: url("../resources/images/header/logo_name.png");
 }
 
 .seds-header-button {
-    width: 145px;
-    height: 28px;
-    margin-left: 40px;
-    border-color: white;
-    background-color: rgb(39, 39, 39);
+  width: 145px;
+  height: 28px;
+  margin-left: 40px;
+  border-color: white;
+  background-color: rgb(39, 39, 39);
 }
 
 /* Ensure the navbar toggler button is styled correctly */
 .navbar-toggler {
-    border: none; /* Remove default border */
+  border: none; /* Remove default border */
 }
 
 .navbar-toggler-icon {
-    background-color: transparent; /* Ensure background is transparent */
+  background-color: transparent; /* Ensure background is transparent */
 }
 
 .navbar-toggler-icon i {
-    color: #ffffff; /* Ensure icon color is white */
+  color: #ffffff; /* Ensure icon color is white */
 }
 
 /* footer css */
 .footer {
-    width: 100%;
-    height: 270px;
+  width: 100%;
+  height: 270px;
 }
 
 .seds-footer-line {
-    width: 100%;
-    height: 3px;
+  width: 100%;
+  height: 3px;
 }
 
 .seds-footer-logo {
-    width: 120px;
-    height: 150px;
-    background-size: cover;
-    background-image: url("../resources/images/footer/logo.png");
+  width: 120px;
+  height: 150px;
+  background-size: cover;
+  background-image: url("../resources/images/footer/logo.png");
 }
 
 .seds-footer-middle-sec {
-    gap: 100px;
-    color: white;
+  gap: 100px;
+  color: white;
 }
 
 .seds-footer-hori-line {
-    color: white;
-    padding: 2px;
+  color: white;
+  padding: 2px;
 }
 
 .seds-footer-bootom-box {
-    justify-content: center;
-    gap: 60px;
+  justify-content: center;
+  gap: 60px;
 }
 
 /* home page css */
 /* home section 1 */
 .seds-home-s1 {
-    width: 100%;
-    height: 580px;
-    position: relative;
-    background-image: url("../resources/images/home/background.png");
-    background-size: cover;
+  width: 100%;
+  height: 580px;
+  position: relative;
+  background-image: url("../resources/images/home/background.png");
+  background-size: cover;
 }
 
 .seds-home-s1-bg {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 200px;
-    margin-bottom: 80px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-bottom: 80px;
 }
 
 .seds-home-s1-ball {
-    width: 500px;
-    height: 500px;
-    border-radius: 350px;
-    background-image: url("../resources/images/home/ball.png");
-    background-size: cover;
-    box-shadow: inset 0px 0px 5px #fdfff29e, inset 30px 0px 50px #000;
-    animation: rotate 10s infinite linear;
+  width: 500px;
+  height: 500px;
+  border-radius: 350px;
+  background-image: url("../resources/images/home/ball.png");
+  background-size: cover;
+  box-shadow: inset 0px 0px 5px #fdfff29e, inset 30px 0px 50px #000;
+  animation: rotate 10s infinite linear;
 }
 
 @keyframes rotate {
-    0% {
-        background-position: 0 0;
-    }
-    100% {
-        background-position: -500px 0;
-    }
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -500px 0;
+  }
 }
 
 .seds-home-s1-astronet {
-    margin-top: 280px;
-    width: 300px;
-    height: 300px;
-    background-image: url("../resources/images/home/astronet1.png");
-    background-size: cover;
-    animation: moveUpDown 4s ease-in-out infinite;
+  margin-top: 280px;
+  width: 300px;
+  height: 300px;
+  background-image: url("../resources/images/home/astronet1.png");
+  background-size: cover;
+  animation: moveUpDown 4s ease-in-out infinite;
 }
 
 @keyframes moveUpDown {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-30px); /* Adjust the value to control the movement distance */
-    }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(
+      -30px
+    ); /* Adjust the value to control the movement distance */
+  }
 }
 
 .seds-home-s1-header-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2; /* Ensure it's above the background */
-    text-align: center;
-    width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; /* Ensure it's above the background */
+  text-align: center;
+  width: 100%;
 }
 
 .seds-home-s1-header {
-    display: flex;
-    justify-content: center; /* Distribute space evenly between items */
+  display: flex;
+  justify-content: center; /* Distribute space evenly between items */
 }
 
 .seds-home-s1-para1 {
-    letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
 .seds-home-s1-para2 {
-    letter-spacing: 3px;
-    margin-bottom: 80px;
+  letter-spacing: 3px;
+  margin-bottom: 80px;
 }
 /* home page section 2 */
-.seds-home-s2{
-    width: 100%;
-    height: 580px;
-    background-image: url("../resources/images/home/background.png");
-    background-size: cover;
+.seds-home-s2 {
+  overflow: hidden;
+  width: 100%;
+  height: 580px;
+  background-image: url("../resources/images/home/background.png");
+  background-size: cover;
 }
-.seds-home-s2-container{
-    display: flex;
-    height: 100%;
+.seds-home-s2-container {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  /* gap: 50px; */
 }
-.seds-home-s2-left{
-    width: 700px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    justify-content: center;
+.seds-home-s2-left {
+  /* width: 600px; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
 }
-.seds-home-s2-left-para{
-    width: 500px;
+.seds-home-s2-left-para {
+  width: 500px;
 }
-.seds-home-s2-right{
-    width: 500px;
-    margin-top: 50px;
+.seds-home-s2-right {
+  width: 700px;
+  margin-top: 50px;
 }
-.seds-home-s2-right-rocket{
-    /* width: 300px; */
+.seds-home-s2-right-rocket {
+  /* width: 300px; */
 }
-.seds-home-s2-left-button{
-    width: 130px;
-    height: 40px;
-    color: rgb(255, 255, 255);
+.seds-home-s2-left-button {
+  width: 130px;
+  height: 40px;
+  color: rgb(255, 255, 255);
 }
 /* rocket seen */
-.seds-home-s2-right-rocket{
-    width: 300px;
-    height: 300px;
-    background-image: url("../resources/images/home/rocket2.png");
-    background-size: cover;
-    transform: translateY(220px);
-    animation: rocket 7s ease-in-out infinite;
-
+.seds-home-s2-right-rocket {
+  width: 300px;
+  height: 300px;
+  background-image: url("../resources/images/home/rocket2.png");
+  background-size: cover;
+  transform: translateY(220px);
+  animation: rocket 7s ease-in-out infinite;
 }
 @keyframes rocket {
-    0%, 100% {
-        transform: translateY(220px);
-    }
-    50% {
-        transform: translateY(-50px); /* Adjust the value to control the movement distance */
-    }
+  0%,
+  100% {
+    transform: translateY(220px);
+  }
+  50% {
+    transform: translateY(
+      20px
+    ); /* Adjust the value to control the movement distance */
+  }
 }
-.seds-home-s2-right-clouds{
-    position: relative;
-    display: flex;
-    margin-top: 30px;
+.seds-home-s2-right-clouds {
+  position: relative;
+  display: flex;
+  margin-top: 30px;
 }
-.home-cloud1{
-    position: absolute;
-    width: 300px;
-    height: 200px;
-    background-image: url("../resources/images/home/cloud1.png");   
-    background-size: cover;
-    animation: cloud1 4s ease-in-out infinite;
+.home-cloud1 {
+  position: absolute;
+  width: 320px;
+  height: 200px;
+  background-image: url("../resources/images/home/cloud1.png");
+  background-size: cover;
+  animation: cloud1 4s ease-in-out infinite;
 }
 @keyframes cloud1 {
-    0%, 100% {
-        transform: translateX(0);
-    }
-    50% {
-        transform: translateX(-15px); /* Adjust the value to control the movement distance */
-    }
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(
+      -15px
+    ); /* Adjust the value to control the movement distance */
+  }
 }
-.home-cloud2{
-    position: absolute;
-    width: 400px;
-    height: 200px;
-    background-image: url("../resources/images/home/cloud1.png");   
-    background-size: cover;
-    margin-left: 80px;
-    animation: cloud2 4s ease-in-out infinite;
+.home-cloud2 {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  background-image: url("../resources/images/home/cloud1.png");
+  background-size: cover;
+  margin-left: 80px;
+  animation: cloud2 4s ease-in-out infinite;
 }
 @keyframes cloud2 {
-    0%, 100% {
-        transform: translateX(0);
-    }
-    50% {
-        transform: translateX(15px); /* Adjust the value to control the movement distance */
-    }
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(
+      15px
+    ); /* Adjust the value to control the movement distance */
+  }
 }
-.home-cloud3{
-    position: absolute;
-    width: 280px;
-    height: 100px;
-    background-image: url("../resources/images/home/cloud2.png");   
-    background-size: cover;
-    margin-top: 100px;
-    margin-left: 80px;
-    animation: cloud3 4s ease-in-out infinite;
-    
+.home-cloud3 {
+  position: absolute;
+  width: 280px;
+  height: 100px;
+  background-image: url("../resources/images/home/cloud2.png");
+  background-size: cover;
+  margin-top: 100px;
+  margin-left: 80px;
+  animation: cloud3 4s ease-in-out infinite;
 }
 @keyframes cloud3 {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateX(-10px); /* Adjust the value to control the movement distance */
-    }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateX(
+      -10px
+    ); /* Adjust the value to control the movement distance */
+  }
 }
 
 /* media queries */
+@media screen and (max-width: 1200px) and (min-width: 1160px) {
+  .seds-home-s2-right {
+    margin-left: -80px;
+  }
+}
+
 @media screen and (max-width: 1160px) {
-    .seds-home-s2-left{
-        width: 450px;
-       
-    }
-    .seds-home-s2-left-para{
-        width: 450px;
-    }
-   
+  .seds-home-s2-left-para {
+    width: 450px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .seds-header-toogleBtn {
-        margin-left: 150px;
-    }
-    .seds-header-button {
-        margin-top: 15px;
-        margin-left: 0px;
-    }
-    /* home s1 */
-    .seds-home-s1-ball {
-        width: 450px;
-        height: 450px;
-       
-    }
-    .seds-home-s1-astronet {
-        width: 230px;
-        height: 250px;
-    }
+  .seds-header-toogleBtn {
+    margin-left: 150px;
+  }
+  .seds-header-button {
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  /* home s1 */
+  .seds-home-s1-ball {
+    width: 450px;
+    height: 450px;
+  }
+  .seds-home-s1-astronet {
+    width: 230px;
+    height: 250px;
+  }
+  /*home section 2 */
+  .seds-home-s2-right {
+    margin-left: -80px;
+  }
+  .seds-home-s2-left {
+    margin-left: 100px;
+  }
 }
 @media screen and (max-width: 884px) {
-     /* home s1 */
-     .seds-home-s1 {
-        height: 480px;
-    }
-     .seds-home-s1-ball {
-        width: 400px;
-        height: 400px;
-        margin-bottom: 50px;
-       
-    }
-    .seds-home-s1-astronet {
-        width: 200px;
-        height: 200px;
-    }
+  /* home s1 */
+  .seds-home-s1 {
+    height: 480px;
+  }
+  .seds-home-s1-ball {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 0px;
+  }
+  .seds-home-s1-astronet {
+    width: 200px;
+    height: 200px;
+  }
+  /* home s2 */
+}
+@media screen and (max-width: 870px) and (min-width: 769px) {
+  /* home s2 */
+  .seds-home-s2-right-rocket {
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+  }
+  .home-cloud1 {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    margin-top: 100px;
+  }
+  .home-cloud2 {
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    margin-top: 80px;
+  }
+  .home-cloud3 {
+    position: absolute;
+    width: 280px;
+    height: 80px;
+    margin-top: 150px;
+  }
+  .seds-home-s2-container {
+    gap: 60px;
+  }
+  .seds-home-s2-left {
+    margin-left: 100px;
+  }
+  .seds-home-s2-left-para {
+    width: 370px;
+  }
+  .seds-home-s2 {
+    width: 100%;
+    height: 510px; /* Adjust the height if necessary */
+  }
 }
 @media screen and (max-width: 800px) {
-    /* home s1 */
-    .seds-home-s1-bg {
-        margin-left: 150px;
-    }
-    .seds-home-s1-header-p2{
-        display: block;
-    }
-    .seds-home-s1-para2 {
-        margin-bottom: 150px;
-    }
-    .seds-home-s1-ball {
-        width: 350px;
-        height: 350px;
-       
-    }
-    .seds-home-s1-astronet {
-        width: 200px;
-        height: 200px;
-    }
+  /* home s1 */
+  .seds-home-s1-bg {
+    margin-left: 150px;
+  }
+  .seds-home-s1-header-p2 {
+    display: block;
+  }
+  .seds-home-s1-para2 {
+    margin-bottom: 150px;
+  }
+  .seds-home-s1-ball {
+    width: 350px;
+    height: 350px;
+    margin-left: 30px;
+    margin-bottom: 0px;
 }
-@media screen and (max-width: 769px) {
-    .seds-footer-logo {
-        width: 80px;
-        height: 100px;
-    }
+  .seds-home-s1-astronet {
+    width: 200px;
+    height: 200px;
+  }
+}
 
-    .seds-footer-middle-sec {
-        gap: 50px;
-    }
-    .seds-home-s1-ball {
-        width: 350px;
-        height: 350px;
-       margin-left: 20px;
-    }
-    /* home section 2 */
-    .seds-home-s2-container{
-        flex-direction: column;
-    }
-    .seds-home-s2-right{
-        margin-top: 0px;
-    }
-   
+@media screen and (max-width: 769px) {
+  .seds-footer-logo {
+    width: 80px;
+    height: 100px;
+  }
+
+  .seds-footer-middle-sec {
+    gap: 50px;
+  }
+  .seds-home-s1-ball {
+    width: 350px;
+    height: 350px;
+    margin-left: 20px;
+  }
+  /* home section 2 */
+  .seds-home-s2-container {
+    flex-direction: column; /* Stack the items vertically */
+    align-items: center;
+}
+
+  .seds-home-s2-left {
+    order: 1; /* Move the left section down */
+    margin-left: 0px;
+  }
+
+  .seds-home-s2-right {
+    order: 2; /* Move the right section up */
+    width: 100%;
+    height: 100%;
+    margin-left: 80px;
+    margin-top: 0px; /* Remove the margin to ensure the section is positioned correctly */
+  }
+
+  .seds-home-s2 {
+    width: 100%;
+    height: 750px; /* Adjust the height if necessary */
+  }
+
+  .seds-home-s2-right-rocket {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  }
+
+  .home-cloud1 {
+    position: absolute;
+    width: 280px;
+    height: 150px;
+  }
+
+  .home-cloud2 {
+    position: absolute;
+    width: 400px;
+    height: 150px;
+  }
+
+  .home-cloud3 {
+    position: absolute;
+    width: 280px;
+    height: 80px;
+    margin-top: 70px;
+  }
 }
 @media screen and (max-width: 700px) {
-    .seds-home-s1 {
-        height: 400px;
-    }
-    .seds-home-s1-header-box{
-        margin-top: 30px;
-    }
-    .seds-home-s1-astronet {
-        width: 120px;
-        height: 120px;
-        
-    }
-    .seds-home-s1-ball {
-        margin-top: 50px;
-        width: 320px;
-        height: 320px;
-        margin-left: -40px;
-    }
-    .seds-home-s1-bg {
-        /* margin-left: -50px; */
-    }
+  .seds-home-s1 {
+    height: 400px;
+  }
+  .seds-home-s1-header-box {
+    margin-top: 30px;
+  }
+  .seds-home-s1-astronet {
+    width: 120px;
+    height: 120px;
+  }
+  .seds-home-s1-ball {
+    margin-top: 50px;
+    width: 320px;
+    height: 320px;
+    margin-left: -40px;
+  }
+  .seds-home-s1-bg {
+    /* margin-left: -50px; */
+  }
 }
 @media screen and (max-width: 576px) {
-    .seds-header-toogleBtn {
-        margin-left: 50px;
-    }
-    .seds-home-s1-ball {
-        width: 300px;
-        height: 300px;
-        margin-left: -90px;
-    }
-    .seds-home-s1-astronet {
-       margin-left: -50px;
+  .seds-header-toogleBtn {
+    margin-left: 50px;
+  }
+  .seds-home-s1-ball {
+    width: 300px;
+    height: 300px;
+    margin-left: -90px;
+  }
+  .seds-home-s1-astronet {
+    margin-left: -50px;
+  }
+  .seds-footer-middle-sec {
+    gap: 20px;
+  }
+  .seds-footer-bootom-box {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+   /* home section 2 */
 
-    }
-    .seds-footer-middle-sec {
-        gap: 20px;
-    }
-    .seds-footer-bootom-box {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-  
+  .seds-home-s2-left {
+    order: 1; /* Move the left section down */
+    margin-left: 0px;
+  }
+
+  .seds-home-s2-right {
+    order: 2; /* Move the right section up */
+    width: 250px;
+    height: 100%;
+    margin-left: -170px;
+    margin-top: 0px; /* Remove the margin to ensure the section is positioned correctly */
+  }
+
+  .seds-home-s2 {
+    /* width: 350px; */
+    width: 100%;
+    height: 750px; /* Adjust the height if necessary */
+  }
+
+  .seds-home-s2-right-rocket {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  }
+
+  .home-cloud1 {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    margin-top: 30px;
+  }
+
+  .home-cloud2 {
+    position: absolute;
+    width: 350px;
+    height: 150px;
+  }
+
+  .home-cloud3 {
+    position: absolute;
+    width: 280px;
+    height: 80px;
+    margin-top: 70px;
+  }
+  .seds-home-s2-left-para {
+    width: 300px;
+  }
 }
 @media screen and (max-width: 450px) {
-    .seds-home-s1-ball {
-        width: 280px;
-        height: 280px;
-        margin-left: -110px;
-    }
-    .seds-home-s1-astronet {
-        width: 100px;
-        height: 100px;
-       margin-left: -50px;
-
-    }
-    
+  .seds-home-s1-ball {
+    width: 280px;
+    height: 280px;
+    margin-left: -110px;
+  }
+  .seds-home-s1-astronet {
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+  }
 }
 @media screen and (max-width: 402px) {
-    .seds-header-box{
-        gap: 0;
-    }
-    .seds-home-s1 {
-        height: 400px;
-    }
-    .seds-home-s1-header-box{
-        margin-top: 80px;
-    }
-    .seds-home-s1-ball {
-        width: 250px;
-        height: 250px;
-        margin-left: -120px;
-        margin-top: 120px;
-    }
-    .seds-home-s1-astronet {
-        width: 80px;
-        height: 80px;
-       margin-left: -30px;
-
-    }
-    .seds-home-s1-bg{
-        margin-top: -100px;
-    }
+  .seds-header-box {
+    gap: 0;
+  }
+  .seds-home-s1 {
+    height: 400px;
+  }
+  .seds-home-s1-header-box {
+    margin-top: 80px;
+  }
+  .seds-home-s1-ball {
+    width: 250px;
+    height: 250px;
+    margin-left: -120px;
+    margin-top: 120px;
+  }
+  .seds-home-s1-astronet {
+    width: 80px;
+    height: 80px;
+    margin-left: -30px;
+  }
+  .seds-home-s1-bg {
+    margin-top: -100px;
+  }
 }
 @media screen and (max-width: 395px) {
-    .seds-footer-logo {
-        width: 65px;
-        height: 80px;
-    }
-    .seds-footer-middle-sec {
-        gap: 15px;
-    }
+  .seds-footer-logo {
+    width: 65px;
+    height: 80px;
+  }
+  .seds-footer-middle-sec {
+    gap: 15px;
+  }
 }

@@ -52,20 +52,21 @@
     <!-- home page section 2 -->
     <section class="seds-home-s2">
         <div class="container seds-home-s2-container ">
-            <div class="seds-home-s2-left alg-text-light passion-one-black">
-                <div class="seds-home-s2-left-h1 alg-text-h1 ">DISCOVERING</div>
-                <div class="seds-home-s2-left-h2 alg-text-h1 alg-text-purple pb-3">OUR MISSION</div>
-                <div class="seds-home-s2-left-para alg-text-h3 pb-4">TO BE OF SERVICE TO OUR UNIVERSITY IN ALL ITS SPACE SCIENCE-ORIENTED NEEDS AND TRAIN OUR MEMBERS TO DEVELOP THE NSECESSARY SOFT SKILLS IN ASTRONOMY</div>
-                <div class="seds-home-s2-left-button-box">
-                    <button class="seds-home-s2-left-button alg-bolder alg-rounded-small border-0 alg-secondary-gradient-hori" type="submit">Read More</button>
-                </div>
-            </div>
+            
             <div class="seds-home-s2-right">
                 <div class="seds-home-s2-right-rocket"></div>
                 <div class="seds-home-s2-right-clouds">
                     <div class="home-cloud1"></div>
                     <div class="home-cloud2"></div>
                     <div class="home-cloud3"></div>
+                </div>
+            </div>
+            <div class="seds-home-s2-left alg-text-light passion-one-black">
+                <div class="seds-home-s2-left-h1 alg-text-h1 ">DISCOVERING</div>
+                <div class="seds-home-s2-left-h2 alg-text-h1 alg-text-purple pb-3">OUR MISSION</div>
+                <div class="seds-home-s2-left-para alg-text-h3 pb-4">TO BE OF SERVICE TO OUR UNIVERSITY IN ALL ITS SPACE SCIENCE-ORIENTED NEEDS AND TRAIN OUR MEMBERS TO DEVELOP THE NSECESSARY SOFT SKILLS IN ASTRONOMY</div>
+                <div class="seds-home-s2-left-button-box">
+                    <button class="seds-home-s2-left-button alg-bolder alg-rounded-small border-0 alg-secondary-gradient-hori" type="submit">Read More</button>
                 </div>
             </div>
         </div>
