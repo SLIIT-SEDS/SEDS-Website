@@ -29,7 +29,7 @@
 </head>
 
 <body>
-    <?php 'header.php';?>
+    <?php include 'header.php';?>
 
 <section class="seds-aboutUs-s1">
         <div class="container seds-aboutUs-s1-container ">
