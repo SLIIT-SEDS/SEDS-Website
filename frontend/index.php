@@ -52,7 +52,7 @@
     <!-- home page section 2 -->
     <section class="seds-home-s2">
         <div class="container seds-home-s2-container ">
-            
+
             <div class="seds-home-s2-right">
                 <div class="seds-home-s2-right-rocket"></div>
                 <div class="seds-home-s2-right-clouds">
@@ -68,6 +68,29 @@
                 <div class="seds-home-s2-left-button-box">
                     <button class="seds-home-s2-left-button alg-bolder alg-rounded-small border-0 alg-secondary-gradient-hori" type="submit">Read More</button>
                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- home page section 5 -->
+    <section class="seds-home-s5">
+        <div class="container d-flex flex-column align-items-center gap-5 pt-4">
+            <div class="passion-one-black d-flex flex-column align-items-center">
+                <div class="alg-text-h1 alg-text-light ">GET IN <span class="alg-text-gradient">TOUCH</span> </div>
+                <div class="alg-text-h2 alg-text-light text-center">Reach out, and let's create a universe of possibilities together!</div>
+            </div>
+            <div class="seds-home-s5-box2 d-flex justify-content-around align-items-center alg-shadow border-0 alg-rounded-mid">
+                <form class="seds-home-s5-box2-s1 d-flex flex-column gap-2">
+                    <div class="seds-home-s5-form-heading alg-text-light alg-bolder alg-text-h2 pb-2">Let’s connect constellations</div>
+                    <div class="d-flex gap-3">
+                        <div> <input class="seds-home-s5-inputs alg-rounded-small alg-text-light bg-transparent p-2" type="text" placeholder="Last Name"></div>
+                        <div><input class="seds-home-s5-inputs alg-rounded-small alg-text-light bg-transparent p-2" type="text" placeholder="First Name"></div>
+                    </div>
+                    <div><input class=" seds-home-s5-inputs1 alg-rounded-small alg-text-light bg-transparent p-2" type="text" placeholder="Email"></div>
+                    <div><input class=" seds-home-s5-inputs1 alg-rounded-small alg-text-light bg-transparent p-2" type="text" placeholder="Phone Number"></div>
+                    <div><textarea name="" class="seds-home-s5-inputs1 bg-transparent p-2" rows="5" id="" placeholder="Message"></textarea></div>
+                    <div><button type="submit" class="seds-home-s5-btn alg-bold alg-rounded-small alg-text-light alg-text-h3 alg-secondary-gradient-hori">Send it in to the moon</button></div>
+                </form>
+                <div class="seds-home-s5-image "></div>
             </div>
         </div>
     </section>
