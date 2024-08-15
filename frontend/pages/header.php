@@ -29,7 +29,7 @@
     <section class="header">
         <div class="container d-flex justify-content-center pt-4">
             <nav class="navbar navbar-expand-lg navbar-light d-flex seds-header-box">
-                <a class="navbar-brand seds-header-logo" href="#"></a>
+                <a class="navbar-brand seds-header-logo" href="../index.php"></a>
                 <button class="navbar-toggler seds-header-toogleBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"><i class="fa-solid fa-bars-staggered" style="color: #ffffff;"></i></span>
                 </button>
@@ -45,11 +45,11 @@
                         <li class="nav-item">
                             <a class="nav-link text-light alg-text-h3 alg-bold lexend-exa" href="#">CONTACT US</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light alg-text-h3 alg-bold lexend-exa" href="#">ABOUT US</a>
+                        <li class="nav-item" >
+                            <a class="nav-link text-light alg-text-h3 alg-bold lexend-exa" href="../pages/aboutUs.php">ABOUT US</a>
                         </li>
-                        <li class="nav-item d-flex align-items-center">
-                            <button class="seds-header-button lexend-exa d-flex justify-content-center alg-bold align-items-center text-light alg-rounded-small alg-text-p" type="submit">JOIN WITH US</button>
+                        <li class="nav-item d-flex align-items-center" >
+                            <button class="seds-header-button lexend-exa d-flex justify-content-center alg-bold align-items-center text-light alg-rounded-small alg-text-p" type="submit" > <a href="../index.php#join-section">JOIN WITH US</a></button>
                         </li>
                     </ul>
                 </div>

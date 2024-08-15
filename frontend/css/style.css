@@ -29,8 +29,30 @@
   width: 145px;
   height: 28px;
   margin-left: 40px;
-  border-color: white;
+  border: 2px solid white; /* Ensures border color is white */
   background-color: rgb(39, 39, 39);
+  color: white; /* Ensures text color is white */
+  display: inline-flex; /* Ensures it behaves like a button */
+  align-items: center; /* Centers text vertically */
+  justify-content: center; /* Centers text horizontally */
+  text-decoration: none; /* Removes underline from link text */
+  border-radius: 5px; /* Optional: makes corners rounded */
+  font-weight: bold; /* Makes the text bold */
+  cursor: pointer; /* Pointer cursor to indicate it's clickable */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for visual effect */
+}
+
+/* Remove default link styles within the button */
+.seds-header-button a {
+  color: inherit; /* Inherits the button's text color */
+  text-decoration: none; /* Removes underline from link text */
+  display: block; /* Makes the link occupy the full button area */
+  width: 100%; /* Ensures the link takes full width of the button */
+  height: 100%; /* Ensures the link takes full height of the button */
+  line-height: 28px; /* Centers text vertically if needed */
+}
+.seds-header-button:hover {
+  transform: scale(1.03);
 }
 
 /* Ensure the navbar toggler button is styled correctly */
@@ -225,6 +247,9 @@
 .seds-home-s2-left-button-box {
   position: relative; /* Ensure the button box is positioned */
   z-index: 10; /* Higher z-index for the button */
+}
+.seds-home-s2-left-button:hover {
+  transform: scale(1.05);
 }
 /* rocket seen */
 .seds-home-s2-right-rocket {

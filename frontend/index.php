@@ -30,7 +30,7 @@
 
 <body>
     <?php include '../frontend/pages/header.php'; ?>
-
+    
     <!-- section 1(seds-home-s1) -->
     <section class="seds-home-s1">
         <div class="container d-flex justify-content-center h-100">
@@ -51,16 +51,16 @@
     </section>
     <!-- home page section 2 -->
     <section class="seds-home-s2">
-    <div class="container seds-home-s2-container ">
-        <div class="seds-home-s2-right">
-            <div class="seds-home-s2-right-rocket"></div>
-            <div class="seds-home-s2-right-clouds">
-                <div class="home-cloud1"></div>
-                <div class="home-cloud2"></div>
-                <div class="home-cloud3"></div>
-            </div>
-            <div class="seds-home-s2-ball-image"></div>
-            <div class="seds-home-s2-ball-image2"></div>
+        <div class="container seds-home-s2-container ">
+            <div class="seds-home-s2-right">
+                <div class="seds-home-s2-right-rocket"></div>
+                <div class="seds-home-s2-right-clouds">
+                    <div class="home-cloud1"></div>
+                    <div class="home-cloud2"></div>
+                    <div class="home-cloud3"></div>
+                </div>
+                <div class="seds-home-s2-ball-image"></div>
+                <div class="seds-home-s2-ball-image2"></div>
         </div>
         <div class="seds-home-s2-left alg-text-light passion-one-black">
             <div class="seds-home-s2-left-h1 alg-text-h1 ">DISCOVERING</div>
@@ -75,11 +75,11 @@
     </div>
 </section>
 
-    <!-- home page section 5 -->
-    <section class="seds-home-s5">
-        <div class="container d-flex flex-column align-items-center gap-5 pt-4">
-            <div class="passion-one-black d-flex flex-column align-items-center">
-                <div class="alg-text-h1 alg-text-light ">GET IN <span class="alg-text-gradient">TOUCH</span> </div>
+<!-- home page section 5 -->
+<section class="seds-home-s5" id="join-section">
+    <div class="container d-flex flex-column align-items-center gap-5 pt-4">
+        <div class="passion-one-black d-flex flex-column align-items-center">
+            <div class="alg-text-h1 alg-text-light ">GET IN <span class="alg-text-gradient">TOUCH</span> </div>
                 <div class="alg-text-h2 alg-text-light text-center">Reach out, and let's create a universe of possibilities together!</div>
             </div>
             <div class="seds-home-s5-box2 d-flex justify-content-around align-items-center alg-shadow border-0 alg-rounded-mid">
@@ -91,14 +91,15 @@
                     </div>
                     <div><input class=" seds-home-s5-inputs1 alg-rounded-small alg-text-light bg-transparent p-2" type="text" placeholder="Email"></div>
                     <div><input class=" seds-home-s5-inputs1 alg-rounded-small alg-text-light bg-transparent p-2" type="text" placeholder="Phone Number"></div>
-                    <div><textarea name="" class="seds-home-s5-inputs1 bg-transparent p-2" rows="5" id="" placeholder="Message"></textarea></div>
+                    <div><textarea name="" class="seds-home-s5-inputs1 alg-text-light bg-transparent p-2" rows="5" id="" placeholder="Message"></textarea></div>
                     <div><button type="submit" class="seds-home-s5-btn alg-bold alg-rounded-small alg-text-light alg-text-h3 alg-secondary-gradient-hori">Send it in to the moon</button></div>
                 </form>
                 <div class="seds-home-s5-image "></div>
             </div>
         </div>
     </section>
-
+    <?php include '../frontend/pages/footer.php'; ?>
+    
     <script src="js/script.js"></script>
 </body>
 
