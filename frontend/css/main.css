@@ -127,6 +127,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; /* Makes the text transparent so the gradient shows through */
 }
+.alg-text-main-gradient-verti {
+  background: var(--main-gradient-vertically);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Makes the text transparent so the gradient shows through */
+}
 
 /* shadow */
 .alg-shadow {

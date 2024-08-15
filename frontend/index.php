@@ -63,8 +63,8 @@
                 <div class="seds-home-s2-ball-image2"></div>
         </div>
         <div class="seds-home-s2-left alg-text-light passion-one-black">
-            <div class="seds-home-s2-left-h1 alg-text-h1 ">DISCOVERING</div>
-            <div class="seds-home-s2-left-h2 alg-text-h1 alg-text-purple pb-3">OUR MISSION</div>
+            <div class="seds-home-s2-left-h1 alg-text-h1 alg-text-main-gradient-verti">DISCOVERING</div>
+            <div class="seds-home-s2-left-h2 alg-text-h1 alg-text-main-gradient-verti pb-3">OUR MISSION</div>
             <div id="paragraph" class="seds-home-s2-left-para alg-text-h3 pb-4">
                 TO BE OF SERVICE TO OUR UNIVERSITY IN ALL ITS SPACE SCIENCE-ORIENTED NEEDS AND TRAIN OUR MEMBERS TO DEVELOP THE NECESSARY SOFT SKILLS IN ASTRONOMY
             </div>
