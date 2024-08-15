@@ -281,6 +281,7 @@
   position: absolute;
   width: 320px;
   height: 200px;
+  margin-top: 25px;
   background-image: url("../resources/images/home/cloud1.png");
   background-size: cover;
   animation: cloud1 4s ease-in-out infinite;
