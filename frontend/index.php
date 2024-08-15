@@ -59,6 +59,8 @@
                 <div class="home-cloud2"></div>
                 <div class="home-cloud3"></div>
             </div>
+            <div class="seds-home-s2-ball-image"></div>
+            <div class="seds-home-s2-ball-image2"></div>
         </div>
         <div class="seds-home-s2-left alg-text-light passion-one-black">
             <div class="seds-home-s2-left-h1 alg-text-h1 ">DISCOVERING</div>
@@ -95,7 +97,7 @@
                 <div class="seds-home-s5-image "></div>
             </div>
         </div>
-    </section>\
+    </section>
 
     <script src="js/script.js"></script>
 </body>

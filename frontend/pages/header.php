@@ -53,6 +53,7 @@
                         </li>
                     </ul>
                 </div>
+                <div class="header-ball-image"></div>
             </nav>
         </div>
     </section>
