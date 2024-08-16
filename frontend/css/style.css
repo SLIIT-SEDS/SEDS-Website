@@ -1,4 +1,7 @@
 /* header css */
+.nav-item:hover{
+  transform: scale(1.06);
+}
 .header {
   background-image: url("../resources/images/home/background.png");
   background-size: cover;
@@ -12,6 +15,10 @@
   background-size: cover;
   margin-right: 30px;
   background-image: url("../resources/images/header/logo_name.png");
+}
+.seds-header-logo:hover{
+  
+  transform: scale(1.05);
 }
 .header-ball-image {
   position: absolute; /* To position it freely */
