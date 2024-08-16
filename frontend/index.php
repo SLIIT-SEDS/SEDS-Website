@@ -24,7 +24,7 @@
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/79961d807c.js" crossorigin="anonymous"></script>
 
-   
+
     <!-- Bootstrap JavaScript -->
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -75,6 +75,18 @@
             </div>
         </div>
     </section>
+    <!-- section 3 -->
+    <section class="seds-home-s3">
+        <div class="container d-flex flex-column justify-center align-items-center pb-4">
+            <div id="dIndex-container" class=" seds-home-s3-container"></div>
+            <a href="pages/divisions.php">
+                <div class="seds-home-s3-image-container alg-secondary-gradient-hori d-flex align-items-center justify-content-center alg-rounded-small">
+                    <div class="seds-home-s3-image"></div>
+                </div>
+            </a>
+            <div class="seds-home-s3-heading alg-text-light">DIVISIONS</div>
+        </div>
+    </section>
 
     <!-- home page section 5 -->
     <section class="seds-home-s5" id="join-section">
@@ -106,7 +118,7 @@
             var button = document.getElementById("toggle-button");
 
             if (button.textContent === "Read More") {
-                paragraph.textContent = "At SEDS, we are committed to fostering a community of students passionate about space exploration and development. Our mission is to support the university in all its space science-oriented endeavors, providing valuable resources and expertise to advance research and innovation. We aim to cultivate the next generation of space leaders by offering hands-on experience, leadership opportunities, and the development of essential soft skills such as teamwork, communication, and problem-solving.";
+                paragraph.textContent = "AT SEDS, WE ARE COMMITTED TO FOSTERING A COMMUNITY OF STUDENTS PASSIONATE ABOUT SPACE EXPLORATION AND DEVELOPMENT. OUR MISSION IS TO SUPPORT THE UNIVERSITY IN ALL ITS SPACE SCIENCE-ORIENTED ENDEAVORS, PROVIDING VALUABLE RESOURCES AND EXPERTISE TO ADVANCE RESEARCH AND INNOVATION. WE AIM TO CULTIVATE THE NEXT GENERATION OF SPACE LEADERS BY OFFERING HANDS-ON EXPERIENCE, LEADERSHIP OPPORTUNITIES, AND THE DEVELOPMENT OF ESSENTIAL SOFT SKILLS SUCH AS TEAMWORK, COMMUNICATION, AND PROBLEM-SOLVING.";
                 button.textContent = "Show Less";
             } else {
                 paragraph.textContent = "TO BE OF SERVICE TO OUR UNIVERSITY IN ALL ITS SPACE SCIENCE-ORIENTED NEEDS AND TRAIN OUR MEMBERS TO DEVELOP THE NECESSARY SOFT SKILLS IN ASTRONOMY";

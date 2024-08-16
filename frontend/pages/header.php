@@ -43,13 +43,13 @@
                             <a class="nav-link text-light alg-text-h3 alg-bold lexend-exa" href="../pages/blogs.php">BLOGS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light alg-text-h3 alg-bold lexend-exa" href="#">CONTACT US</a>
+                            <a class="nav-link text-light alg-text-h3 alg-bold lexend-exa" href="../index.php#join-section">CONTACT US</a>
                         </li>
                         <li class="nav-item" >
                             <a class="nav-link text-light alg-text-h3 alg-bold lexend-exa" href="../pages/aboutUs.php">ABOUT US</a>
                         </li>
                         <li class="nav-item d-flex align-items-center" >
-                            <button class="seds-header-button lexend-exa d-flex justify-content-center alg-bold align-items-center text-light alg-rounded-small alg-text-p" type="submit" > <a href="../index.php#join-section">JOIN WITH US</a></button>
+                            <button class="seds-header-button lexend-exa d-flex justify-content-center alg-bold align-items-center text-light alg-rounded-small alg-text-p" type="submit" > <a href="">JOIN WITH US</a></button>
                         </li>
                     </ul>
                 </div>

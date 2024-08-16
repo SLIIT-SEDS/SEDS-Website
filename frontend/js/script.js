@@ -85,6 +85,7 @@ function displayBlogs(blogs) {
     });
 }
 fetchBlogs();
+
 // divisions
 
 async function fetchdivisions() {
@@ -174,3 +175,90 @@ function displaydivisions(divisions) {
     });
 }
 fetchdivisions();
+async function fetchDindex() {
+    const query = encodeURIComponent(`*[_type == "divisions"]{
+      title,
+      description,
+      "imageUrl": image.asset->url,
+      active
+    }`);
+    
+    const url = `https://flk256bs.api.sanity.io/v1/data/query/production?query=${query}`;
+  
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+      console.log(data.result); // Log the data to console
+      displayDindexs(data.result); // Display blogs on the page
+    } catch (error) {
+      console.error('Fetch failed:', error);
+    }
+}
+
+function truncateDescription(description, maxWords) {
+    const words = description.split(' ');
+    if (words.length > maxWords) {
+        return words.slice(0, maxWords).join(' ') + '...';
+    }
+    return description;
+}
+
+function displayDindexs(Dindexs) {
+    const Dindexcontainer = document.getElementById('dIndex-container');
+
+    if (Dindexs.length === 0) {
+        Dindexcontainer.innerHTML = '<p>No divisions available.</p>';
+        return;
+    }
+
+    let DindexElements = '<div class="row">'; // Start with a row
+
+    // Limit the display to 2 divisions
+    Dindexs.slice(0, 2).forEach((dIndex, index) => {
+        const truncatedDescription = truncateDescription(dIndex.description, 27);
+
+        // Add a column for each division
+        DindexElements += `
+            <div class="col-md-6 mb-3">
+                <div class="card blog-card">
+                    <img src="${dIndex.imageUrl}" class="card-img-top" alt="${dIndex.title}">
+                    <div class="card-body">
+                        <h5 class="card-title seds-blog-title alg-text-h2 passion-one-regular">${dIndex.title}</h5>
+                        <div class="card-text-container">
+                            <p class="card-text truncated alg-text-h3 ">${truncatedDescription}</p>
+                            <p class="card-text full alg-text-h3 ">${dIndex.description}</p>
+                            <button class="btn alg-secondary-gradient-hori alg-text-light toggle-btn">Show More</button>
+                        </div>
+                        ${dIndex.active ? '<p class="text-success">Active</p>' : '<p class="text-danger">Inactive</p>'}
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+
+    DindexElements += '</div>'; // Close the row
+    Dindexcontainer.innerHTML = DindexElements;
+
+    // Add event listeners for "Show More" / "Show Less" buttons
+    document.querySelectorAll('.toggle-btn').forEach(button => {
+        button.addEventListener('click', function() {
+            const cardBody = this.closest('.card-body');
+            const fullText = cardBody.querySelector('.full');
+            const truncatedText = cardBody.querySelector('.truncated');
+
+            if (this.textContent === 'Show More') {
+                fullText.style.display = 'block'; // Show full description
+                truncatedText.style.display = 'none'; // Hide truncated description
+                this.textContent = 'Show Less'; // Change button text
+            } else {
+                fullText.style.display = 'none'; // Hide full description
+                truncatedText.style.display = 'block'; // Show truncated description
+                this.textContent = 'Show More'; // Change button text
+            }
+        });
+    });
+}
+
+// Fetch and display divisions when the page loads
+fetchDindex();
+

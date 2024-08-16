@@ -426,8 +426,28 @@
   color: rgb(210, 210, 210);
   /* color: white; */
 }
-
-
+/* home section 3 */
+.seds-home-s3{
+  background-image: url("../resources/images/home/background.png");
+  background-size: cover;
+}
+.seds-home-s3-container{
+  padding: 40px;
+}
+.seds-home-s3-image-container{
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+.seds-home-s3-image-container:hover{
+  transform: scale(1.04);
+}
+.seds-home-s3-image{
+  width: 60px;
+  height: 60px;
+  background-image: url("../resources/images/home/blogs.png");
+  background-size: cover;
+}
 /* media queries */
 @media screen and (max-width: 1200px) and (min-width: 1160px) {
   .seds-home-s2-right {
@@ -436,7 +456,7 @@
 }
 
 @media screen and (max-width: 1160px) {
-  .seds-home-s2-left-para {
+      .seds-home-s2-left-para {
     width: 450px;
   }
   /* home s5 */
