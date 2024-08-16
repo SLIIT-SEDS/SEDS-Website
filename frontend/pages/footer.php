@@ -54,11 +54,11 @@
                     </div>
                 </div>
                 <div class="seds-footer-sec2-box d-flex flex-column gap-3">
-                    <div>Home</div>
-                    <div>Divisions</div>
-                    <div>Blogs</div>
-                    <div>Contact Us</div>
-                    <div>About Us</div>
+                <div><a class="text-decoration-none alg-text-light" href="../index.php">Home</a></div>
+                <div><a class="text-decoration-none alg-text-light" href="../pages/divisions.php">Divisions</a></div>
+                <div><a class="text-decoration-none alg-text-light" href="../pages/blogs.php">Blogs</a></div>
+                <div><a class="text-decoration-none alg-text-light" href="../index.php#join-section">Contact Us</a></div>
+                <div><a class="text-decoration-none alg-text-light" href="../pages/aboutUs.php">About Us</a></div>
                 </div>
                 <div class="seds-footer-sec3-box d-flex flex-column gap-3">
                     <div><a class="text-decoration-none alg-text-light" href="https://m.facebook.com/SEDS.SLIIT">Facebook</a></div>
