@@ -40,7 +40,7 @@
                             <a class="nav-link text-light alg-text-h3 alg-bold lexend-exa" href="#">DIVISIONS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light alg-text-h3 alg-bold lexend-exa" href="#">BLOGS</a>
+                            <a class="nav-link text-light alg-text-h3 alg-bold lexend-exa" href="../pages/blogs.php">BLOGS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light alg-text-h3 alg-bold lexend-exa" href="#">CONTACT US</a>

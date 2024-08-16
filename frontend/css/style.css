@@ -372,6 +372,60 @@
   width: 445px;
   height: 40px;
 }
+/* blogs */
+.seds-blog-s {
+  background-image: url("../resources/images/home/background.png");
+  background-size: cover;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensure cards stretch to full height of their container */
+  background: none;
+  color: white;
+}
+
+.card-img-top {
+  width: 100%; /* Make image take up full width of the card */
+  height:60%; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the area of the image container */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-text-container .card-text.full {
+  display: none; /* Hide full description by default */
+}
+
+.card-text-container .card-text.truncated {
+  margin-bottom: 0;
+}
+
+.card-text-container.expanded .card-text.truncated {
+  display: none; /* Hide truncated text when expanded */
+}
+
+.toggle-btn {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  width: calc(100% - 30px); /* Ensure button fits within the card */
+}
+.toggle-btn:hover {
+  color: white;
+  transform: scale(1.04);
+}
+.card-text{
+  color: rgb(210, 210, 210);
+  /* color: white; */
+}
+
+
 /* media queries */
 @media screen and (max-width: 1200px) and (min-width: 1160px) {
   .seds-home-s2-right {
