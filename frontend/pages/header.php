@@ -29,7 +29,7 @@
     <section class="header">
         <div class="container d-flex justify-content-center pt-4">
             <nav class="navbar navbar-expand-lg navbar-light d-flex seds-header-box">
-                <a class="navbar-brand seds-header-logo" href="../index.php"></a>
+                <a class="navbar-brand seds-header-logo" href="../../index.html"></a>
                 <button class="navbar-toggler seds-header-toogleBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"><i class="fa-solid fa-bars-staggered" style="color: #ffffff;"></i></span>
                 </button>
