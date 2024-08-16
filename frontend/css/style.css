@@ -384,12 +384,14 @@
   height: 100%; /* Ensure cards stretch to full height of their container */
   background: none;
   color: white;
+  
 }
 
 .card-img-top {
   width: 100%; /* Make image take up full width of the card */
   height:60%; /* Maintain aspect ratio */
   object-fit: cover; /* Cover the area of the image container */
+  border-radius: 10px;
 }
 
 .card-body {
