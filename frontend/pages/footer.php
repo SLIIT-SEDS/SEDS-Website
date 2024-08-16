@@ -65,14 +65,14 @@
                     <div><a class="text-decoration-none alg-text-light" href="https://www.instagram.com/sedssliit">Instagram</a></div>
                     <div><a class="text-decoration-none alg-text-light" href="https://www.linkedin.com/company/seds-sliit">LinkedIn</a></div>
                     <div><a class="text-decoration-none alg-text-light" href="https://medium.com/@sliitseds">Medium</a></div>
-                    <div>Join with Us</div>
+                    <div><a class="text-decoration-none alg-text-light" href="https://forms.gle/BGyKgMRVqPeJY2WM9">Join with us</a></div>
                 </div>
             </div>
         </div>
         <hr class="seds-footer-hori-line">
         <div class="container seds-footer-bootom-box d-flex  alg-text-light alg-text-p">
             <div>Copyright © 2024 SEDS SLIIT. All rights reserved.</div>
-            <div>Website Design, Development & Hosting by Weenet</div>
+            <div><a class="text-decoration-none alg-text-light" href="https://www.instagram.com/wee_net_?igsh=Zng4MXZxMWo0amNw">Website Design, Development & Hosting by Weenet</a></div>
         </div>
     </section>
 
