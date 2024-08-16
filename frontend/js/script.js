@@ -262,3 +262,36 @@ function displayDindexs(Dindexs) {
 // Fetch and display divisions when the page loads
 fetchDindex();
 
+
+
+
+ // Function to load header content
+ function loadHeader() {
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            // Insert the content into the container
+            document.getElementById('header-container').innerHTML = data;
+        })
+        .catch(error => console.error('Error loading header:', error));
+}
+
+// Load the header content when the page loads
+document.addEventListener('DOMContentLoaded', loadHeader);
+
+
+  // Function to load footer content
+  function loadFooter() {
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer-container').innerHTML = data;
+        })
+        .catch(error => console.error('Error loading footer:', error));
+}
+
+// Load the header and footer content when the page loads
+document.addEventListener('DOMContentLoaded', () => {
+    loadHeader();
+    loadFooter();
+});
