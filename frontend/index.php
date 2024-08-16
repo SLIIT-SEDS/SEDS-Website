@@ -24,13 +24,14 @@
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/79961d807c.js" crossorigin="anonymous"></script>
 
+   
     <!-- Bootstrap JavaScript -->
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
     <?php include '../frontend/pages/header.php'; ?>
-    
+
     <!-- section 1(seds-home-s1) -->
     <section class="seds-home-s1">
         <div class="container d-flex justify-content-center h-100">
@@ -61,25 +62,25 @@
                 </div>
                 <div class="seds-home-s2-ball-image"></div>
                 <div class="seds-home-s2-ball-image2"></div>
-        </div>
-        <div class="seds-home-s2-left alg-text-light passion-one-black">
-            <div class="seds-home-s2-left-h1 alg-text-h1 alg-text-main-gradient-verti">DISCOVERING</div>
-            <div class="seds-home-s2-left-h2 alg-text-h1 alg-text-main-gradient-verti pb-3">OUR MISSION</div>
-            <div id="paragraph" class="seds-home-s2-left-para alg-text-h3 pb-4">
-                TO BE OF SERVICE TO OUR UNIVERSITY IN ALL ITS SPACE SCIENCE-ORIENTED NEEDS AND TRAIN OUR MEMBERS TO DEVELOP THE NECESSARY SOFT SKILLS IN ASTRONOMY
             </div>
-            <div class="seds-home-s2-left-button-box">
-                <button id="toggle-button" class="seds-home-s2-left-button alg-bolder alg-rounded-small border-0 alg-secondary-gradient-hori" type="button">Read More</button>
+            <div class="seds-home-s2-left alg-text-light passion-one-black">
+                <div class="seds-home-s2-left-h1 alg-text-h1 alg-text-main-gradient-verti">DISCOVERING</div>
+                <div class="seds-home-s2-left-h2 alg-text-h1 alg-text-main-gradient-verti pb-3">OUR MISSION</div>
+                <div id="paragraph" class="seds-home-s2-left-para alg-text-h3 pb-4">
+                    TO BE OF SERVICE TO OUR UNIVERSITY IN ALL ITS SPACE SCIENCE-ORIENTED NEEDS AND TRAIN OUR MEMBERS TO DEVELOP THE NECESSARY SOFT SKILLS IN ASTRONOMY
+                </div>
+                <div class="seds-home-s2-left-button-box">
+                    <button id="toggle-button" class="seds-home-s2-left-button alg-bolder alg-rounded-small border-0 alg-secondary-gradient-hori" type="button">Read More</button>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- home page section 5 -->
-<section class="seds-home-s5" id="join-section">
-    <div class="container d-flex flex-column align-items-center gap-5 pt-4">
-        <div class="passion-one-black d-flex flex-column align-items-center">
-            <div class="alg-text-h1 alg-text-light ">GET IN <span class="alg-text-gradient">TOUCH</span> </div>
+    <!-- home page section 5 -->
+    <section class="seds-home-s5" id="join-section">
+        <div class="container d-flex flex-column align-items-center gap-5 pt-4">
+            <div class="passion-one-black d-flex flex-column align-items-center">
+                <div class="alg-text-h1 alg-text-light ">GET IN <span class="alg-text-gradient">TOUCH</span> </div>
                 <div class="alg-text-h2 alg-text-light text-center">Reach out, and let's create a universe of possibilities together!</div>
             </div>
             <div class="seds-home-s5-box2 d-flex justify-content-around align-items-center alg-shadow border-0 alg-rounded-mid">
@@ -99,7 +100,21 @@
         </div>
     </section>
     <?php include '../frontend/pages/footer.php'; ?>
-    
+    <script>
+        document.getElementById("toggle-button").addEventListener("click", function() {
+            var paragraph = document.getElementById("paragraph");
+            var button = document.getElementById("toggle-button");
+
+            if (button.textContent === "Read More") {
+                paragraph.textContent = "At SEDS, we are committed to fostering a community of students passionate about space exploration and development. Our mission is to support the university in all its space science-oriented endeavors, providing valuable resources and expertise to advance research and innovation. We aim to cultivate the next generation of space leaders by offering hands-on experience, leadership opportunities, and the development of essential soft skills such as teamwork, communication, and problem-solving.";
+                button.textContent = "Show Less";
+            } else {
+                paragraph.textContent = "TO BE OF SERVICE TO OUR UNIVERSITY IN ALL ITS SPACE SCIENCE-ORIENTED NEEDS AND TRAIN OUR MEMBERS TO DEVELOP THE NECESSARY SOFT SKILLS IN ASTRONOMY";
+                button.textContent = "Read More";
+            }
+        });
+    </script>
+
     <script src="js/script.js"></script>
 </body>
 
