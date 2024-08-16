@@ -378,6 +378,10 @@
 .seds-home-s5-btn {
   width: 445px;
   height: 40px;
+  border: none;
+}
+.seds-home-s5-btn:hover {
+  transform: scale(1.03);
 }
 /* blogs */
 .seds-blog-s {
