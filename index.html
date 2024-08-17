@@ -25,8 +25,7 @@
     <script src="https://kit.fontawesome.com/79961d807c.js" crossorigin="anonymous"></script>
 
 
-    <!-- Bootstrap JavaScript -->
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  
 </head>
 
 <body>
@@ -57,6 +56,7 @@
                         </li>
                     </ul>
                 </div>
+                
                 <div class="header-ball-image"></div>
             </nav>
         </div>
@@ -141,21 +141,7 @@
             </div>
         </div>
     </section>
-    <script>
-        document.getElementById("toggle-button").addEventListener("click", function() {
-            var paragraph = document.getElementById("paragraph");
-            var button = document.getElementById("toggle-button");
-
-            if (button.textContent === "Read More") {
-                paragraph.textContent = "AT SEDS, WE ARE COMMITTED TO FOSTERING A COMMUNITY OF STUDENTS PASSIONATE ABOUT SPACE EXPLORATION AND DEVELOPMENT. OUR MISSION IS TO SUPPORT THE UNIVERSITY IN ALL ITS SPACE SCIENCE-ORIENTED ENDEAVORS, PROVIDING VALUABLE RESOURCES AND EXPERTISE TO ADVANCE RESEARCH AND INNOVATION. WE AIM TO CULTIVATE THE NEXT GENERATION OF SPACE LEADERS BY OFFERING HANDS-ON EXPERIENCE, LEADERSHIP OPPORTUNITIES, AND THE DEVELOPMENT OF ESSENTIAL SOFT SKILLS SUCH AS TEAMWORK, COMMUNICATION, AND PROBLEM-SOLVING.";
-                button.textContent = "Show Less";
-            } else {
-                paragraph.textContent = "TO BE OF SERVICE TO OUR UNIVERSITY IN ALL ITS SPACE SCIENCE-ORIENTED NEEDS AND TRAIN OUR MEMBERS TO DEVELOP THE NECESSARY SOFT SKILLS IN ASTRONOMY";
-                button.textContent = "Read More";
-            }
-        });
-    </script>
-
+   
 <section class="footer alg-bg-dark-blue">
     <div class="container d-flex flex-column align-items-center">
         <div class="">
@@ -200,7 +186,27 @@
         <div><a class="text-decoration-none alg-text-light" href="https://www.instagram.com/wee_net_?igsh=Zng4MXZxMWo0amNw">Website Design, Development & Hosting by Weenet</a></div>
     </div>
 </section>
-<script src="frontend/js/script.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <script src="frontend/js/script.js"></script>
+  <script>
+    document.getElementById("toggle-button").addEventListener("click", function() {
+        var paragraph = document.getElementById("paragraph");
+        var button = document.getElementById("toggle-button");
+
+        if (button.textContent === "Read More") {
+            paragraph.textContent = "AT SEDS, WE ARE COMMITTED TO FOSTERING A COMMUNITY OF STUDENTS PASSIONATE ABOUT SPACE EXPLORATION AND DEVELOPMENT. OUR MISSION IS TO SUPPORT THE UNIVERSITY IN ALL ITS SPACE SCIENCE-ORIENTED ENDEAVORS, PROVIDING VALUABLE RESOURCES AND EXPERTISE TO ADVANCE RESEARCH AND INNOVATION. WE AIM TO CULTIVATE THE NEXT GENERATION OF SPACE LEADERS BY OFFERING HANDS-ON EXPERIENCE, LEADERSHIP OPPORTUNITIES, AND THE DEVELOPMENT OF ESSENTIAL SOFT SKILLS SUCH AS TEAMWORK, COMMUNICATION, AND PROBLEM-SOLVING.";
+            button.textContent = "Show Less";
+        } else {
+            paragraph.textContent = "TO BE OF SERVICE TO OUR UNIVERSITY IN ALL ITS SPACE SCIENCE-ORIENTED NEEDS AND TRAIN OUR MEMBERS TO DEVELOP THE NECESSARY SOFT SKILLS IN ASTRONOMY";
+            button.textContent = "Read More";
+        }
+    });
+</script>
+
+
 </body>
 
 </html>
