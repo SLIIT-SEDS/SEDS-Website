@@ -92,6 +92,90 @@
 .seds-badge-s3-b3 {
   background-image: url("../resources/images/badge/badge3.png");
 }
+
+/* s4 */
+.seds-badge-s4 {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background-image: url("../resources/images/home/background.png");
+    background-size: cover;
+}
+.table-wrapper {
+    /* width: 100%; */
+    overflow-x: auto; /* Enable horizontal scrolling */
+  }
+  
+  table {
+    /* width: 100%; */
+    border-collapse: collapse; /* Optional: Avoid gaps between table borders */
+    min-width: 900px; /* Set a minimum width to trigger the scroll if needed */
+  }
+  
+  th, td {
+    white-space: nowrap; /* Prevent text wrapping in table cells */
+  }
+  
+.seds-badge-s4-container{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    background-size: cover;
+    background-image: url("../resources/images/badge/back.png");
+  }
+  .seds-badge-s4-tb1{
+    width: 300px;
+    height: 80px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white */
+    border-color: white;
+    border-style: groove;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+  .seds-badge-s4-tb{
+    width: 300px;
+    height: 150px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white */
+    border-color: white;
+    border-style: groove;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+  .seds-badge-s4-tb2{
+    width: 100%;
+    height: 80px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white */
+    border-color: white;
+    border-style: groove;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+  .seds-badge-s4-td{
+    width: 100%;
+    height: 150px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white */
+    border-color: white;
+    border-style: groove;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 /* media queries */
 @media screen and (max-width: 1200px) {
   /* s1 */
@@ -144,6 +228,7 @@
     z-index: 100;
   }
   .seds-badge-s2-img {
+    display: none;
     position: absolute;
     z-index: 1;
     transform: translateX(250px);
@@ -153,6 +238,26 @@
     width: 200px;
     height: 250px;
     background-size: cover;
+  }
+  /* s4 */
+  .seds-badge-s4-tb1{
+    width: 200px;
+    height: 80px;
+    font-size: 18px;
+  }
+  .seds-badge-s4-tb{
+    width: 200px;
+    height: 150px;
+    font-size: 15px;
+  }
+  .seds-badge-s4-tb2{
+    width: 100%;
+    height: 80px;
+    font-size: 25px;
+  }
+  .seds-badge-s4-td{
+    width: 100%;
+    height: 150px;
   }
 }
 @media screen and (max-width: 850px) {
@@ -222,6 +327,26 @@
   .seds-badge-s3-text{
     font-size: 12px;
   }
+   /* s4 */
+   .seds-badge-s4-tb1{
+    width: 170px;
+    height: 80px;
+    font-size: 16px;
+  }
+  .seds-badge-s4-tb{
+    width: 170px;
+    height: 150px;
+    font-size: 15px;
+  }
+  .seds-badge-s4-tb2{
+    width: 100%;
+    height: 80px;
+    font-size: 25px;
+  }
+  .seds-badge-s4-td{
+    width: 100%;
+    height: 150px;
+  }
  
 }
 @media screen and (max-width: 640px) {
@@ -229,6 +354,26 @@
  .seds-badge-s3-para {
     width: 500px;
     font-size: 13px;
+  }
+   /* s4 */
+   .seds-badge-s4-tb1{
+    width: 155px;
+    height: 80px;
+    font-size: 15px;
+  }
+  .seds-badge-s4-tb{
+    width: 155px;
+    height: 150px;
+    font-size: 15px;
+  }
+  .seds-badge-s4-tb2{
+    width: 100%;
+    height: 80px;
+    font-size: 15px;
+  }
+  .seds-badge-s4-td{
+    width: 100%;
+    height: 150px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -322,6 +467,26 @@
   /* s3 */
   .seds-badge-s3-heading {
     font-size: 18px;
+  }
+   /* s4 */
+   .seds-badge-s4-tb1{
+    width: 130px;
+    height: 80px;
+    font-size: 12px;
+  }
+  .seds-badge-s4-tb{
+    width: 130px;
+    height: 150px;
+    font-size: 12px;
+  }
+  .seds-badge-s4-tb2{
+    width: 100%;
+    height: 80px;
+    font-size: 25px;
+  }
+  .seds-badge-s4-td{
+    width: 100%;
+    height: 150px;
   }
 }
 @media screen and (max-width: 375px) {
