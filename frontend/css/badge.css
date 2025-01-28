@@ -410,7 +410,7 @@
   /* s3 */
  .seds-badge-s3-para {
     width: 450px;
-    font-size: 10px;
+    font-size: 11px;
   }
   .seds-badge-s3-b {
     width: 130px;
@@ -421,7 +421,7 @@
     gap: 20px;
   }
   .seds-badge-s3-heading {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 520px) {
@@ -467,7 +467,7 @@
   }
   /* s3 */
   .seds-badge-s3-heading {
-    font-size: 18px;
+    font-size: 20px;
   }
    /* s4 */
    .seds-badge-s4-tb1{
@@ -493,6 +493,6 @@
 @media screen and (max-width: 375px) {
     .seds-badge-s3-para {
         width: 330px;
-        font-size: 9px;
+        font-size: 10px;
       }
 }
