@@ -83,7 +83,7 @@
 @media screen and (max-width: 576px) {
     /* s1 */
     .seds-badge-s1 {
-        height: 600px;
+        height: 510px;
       }
     .seds-badge-s1-left {
         width: 380px;
@@ -95,6 +95,10 @@
       .seds-badge-s1-left-para{
         padding-top: 20px;
         font-size: 12px;
+      }
+      .seds-badge-s1-img {
+        width: 180px;
+        height: 190px;
       }
 }
 @media screen and (max-width: 520px) {
@@ -108,6 +112,9 @@
     /* s1 */
     .seds-badge-s1-left {
         max-width: 100%;
+      }
+      .seds-badge-s1 {
+        height: 525px;
       }
 }
 
