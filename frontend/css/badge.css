@@ -1,7 +1,7 @@
 /* s1 */
 .seds-badge-s1 {
   width: 100%;
-  height: 520px;
+  height: 400px;
   position: relative;
   background-image: url("../resources/images/home/background.png");
   background-size: cover;
@@ -15,7 +15,7 @@
   width: 800px;
 }
 .seds-badge-s1-left-heading {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .seds-badge-s1-left-para {
   padding-top: 40px;
@@ -199,7 +199,7 @@
 @media screen and (max-width: 1160px) {
   /* s1 */
   .seds-badge-s1 {
-    height: 430px;
+    height: 370px;
   }
   .seds-badge-s1-left {
     width: 600px;
@@ -213,9 +213,6 @@
 }
 @media screen and (max-width: 992px) {
   /* s1 */
-  .seds-badge-s1 {
-    height: 460px;
-  }
   .seds-badge-s1-img {
     width: 170px;
     height: 180px;
@@ -278,7 +275,7 @@
 @media screen and (max-width: 768px) {
   /* s1 */
   .seds-badge-s1 {
-    height: 700px;
+    height: 600px;
   }
   .seds-badge-s1-left {
     display: flex;
@@ -380,13 +377,13 @@
 @media screen and (max-width: 576px) {
   /* s1 */
   .seds-badge-s1 {
-    height: 510px;
+    height: 450px;
   }
   .seds-badge-s1-left {
     width: 380px;
   }
   .seds-badge-s1-left-heading {
-    padding-top: 20px;
+    padding-top: 5px;
   }
   .seds-badge-s1-left-para {
     padding-top: 20px;
@@ -455,7 +452,7 @@
     max-width: 100%;
   }
   .seds-badge-s1 {
-    height: 525px;
+    height: 465px;
   }
   /* s2 */
   .seds-badge-s2-img {
@@ -466,7 +463,7 @@
     transform: translateX(80px);
   }
   /* s3 */
-  .seds-badge-s3-heading {
+  .~ {
     font-size: 23px;
   }
    /* s4 */
